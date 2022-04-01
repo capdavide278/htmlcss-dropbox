@@ -239,3 +239,13 @@ h3{
 .simbolo{
     color: blue;
 }
+
+/* Riquadro ufficio vendite */
+.ufficio-vendite{
+    margin-top: 3%;
+    width: 84%;
+    height: 15%;
+    margin-left: 100px;
+    border: solid 1px black;
+    display: inline-block;
+}
