@@ -110,6 +110,12 @@ p{
     margin-top: 5%;
 }
 
+container2::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
 #prezzi{
     height: 100%;
     width: 70%;
@@ -120,28 +126,29 @@ p{
 h2{
     font-size: 50px;
     padding-top: 10%;
-    padding-left: 18%;
+    padding-left: 20%;
 }
 
 .check{
-    margin-left: 18%;
+    margin-left: 20%;
     margin-top: 2%;
     margin-right: 2px;
 }
 
 .check2{
-    margin-left: 2%;
+    margin-left: 1%;
     margin-top: 2%;
     margin-right: 2px;
 }
 
 /* scelta dei prezzi */
 .rettangolo{
+    float: left;
     margin-top: 3%;
    /*  background-color: aquamarine; */
     width: 23%;
     height: 75%;
-    margin-left: 240px;
+    margin-left: 100px;
     border: solid 1px black;
 }
 
@@ -181,7 +188,7 @@ p{
 .fa-folder{
     margin-right: 10px;
     font-size: 15px;
-    color: lightgray;
+    color: black;
     margin-left: 5px;
 }
 
