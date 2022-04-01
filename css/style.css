@@ -110,7 +110,7 @@ p{
     margin-top: 5%;
 }
 
-container2::after{
+.container2::after{
     display: table;
     content: "";
     clear: both;
@@ -242,10 +242,74 @@ h3{
 
 /* Riquadro ufficio vendite */
 .ufficio-vendite{
+    float: left;
     margin-top: 3%;
     width: 84%;
     height: 15%;
     margin-left: 100px;
     border: solid 1px black;
-    display: inline-block;
+}
+
+
+/* section partner dropbox */
+#container3{
+    width: 100%;
+    /* background-color: black; */
+    height: 750px;
+    margin-top: 400px;
+}
+
+.container3::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.container-img{
+    width: 700px;
+    height: 700px;
+   /*  background-color: red; */
+    float: left;
+    margin-left: 20%;
+}
+
+#partner{
+    height: 650px;
+    width: 700px;
+}
+
+.container-scritta{
+    float: left;
+   /*  background-color: green; */
+    width: 500px;
+    height: 700px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.scrittapartner{
+    font-size: 30px;
+}
+
+.scrittapartner2{
+    font-size: 15px;
+}
+
+.partner{
+   /*  background-color: black; */
+    height: 8%;
+    padding-top: 3%;
+    width: 35%;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+#btn-partner{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 5% 10%;
+    border: solid 2px black;
+    text-align: center;
 }
