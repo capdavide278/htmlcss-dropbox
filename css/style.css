@@ -263,6 +263,10 @@ h3{
     font-size: 16px;
 }
 
+.contenutispeciali{
+    color: white;
+}   
+
 .simbolo{
     color: blue;
 }
@@ -358,7 +362,7 @@ h3{
     margin-left: 15%;
 }
 
-#containerfunzioni::after{
+#funzioni::after{
     display: table;
     content: "";
     clear: both;
@@ -445,13 +449,6 @@ h3{
     /* background-color: aqua;  */
     float: left;
 }
-
-#bloccoscritte::after{
-    display: table;
-    content: "";
-    clear: both;
-}
-
 
 .primoriquadro{
     width: 50%;
@@ -626,6 +623,7 @@ h3{
     height: 600px;
     background-color: black;
     position: relative;
+    margin-top: 10%;
 }
 
 #piedipagina::after{
